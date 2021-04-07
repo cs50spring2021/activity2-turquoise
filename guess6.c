@@ -116,7 +116,7 @@ askGuess(const int low, const int high)
     return 0;
   }
   
-  if (!str2int(inputLine, &guess)) {
+  if (!str2int(inputLine, guess)) {
     printf("Hey! bad integer.\n");
     return -1;
   }
