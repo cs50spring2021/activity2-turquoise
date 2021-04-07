@@ -7,7 +7,7 @@
  */
 
 #include <stdio.h>
-#include <string.h>
+#include <stdbool.h>
 
 bool str2int(const char string[], int * number)
 {
